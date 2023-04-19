@@ -19,7 +19,7 @@ import com.cloud.loanApproval.repository.UserRepository;
 
 @RestController
 @RequestMapping(value = {"/user"})
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("http://192.168.56.1:3000")
 public class UserController {
 
 	@Autowired
