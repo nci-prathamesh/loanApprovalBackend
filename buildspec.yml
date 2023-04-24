@@ -4,6 +4,8 @@ phases:
   build:
     commands:
         # run build script
+        mvn clean
+        mvn package
         
 artifacts:
   # include all files required to run application
